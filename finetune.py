@@ -14,7 +14,7 @@ os.environ["ACCELERATE_USE_AMP"] = "false"
 # CONFIG
 # -------------------------
 MODEL_NAME = "meta-llama/Meta-Llama-3-8B"
-DATA_DIR = "/home/gpuuser6/Alik/Laxita/Updated_Code/dataset/processed-IN-Ext/"
+DATA_DIR = "../dataset/processed-IN-Ext/"
 OUTPUT_DIR = "./llama3_legal_qlora_70"
 
 # -------------------------
