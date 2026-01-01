@@ -29,5 +29,9 @@ python data_pre_process.py
 ```
 **Fine tune the model**
 ```
-
+python finetune.py
+```
+**Evaluate the model**
+```
+python Evaluation.py
 ```
