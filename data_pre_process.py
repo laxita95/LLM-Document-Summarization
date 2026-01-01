@@ -6,10 +6,10 @@ from tqdm import tqdm
 # -----------------------------
 # PATHS
 # -----------------------------
-judgement_dir = "/home/gpuuser6/Alik/Laxita/Legal-Doc-Summarization-LLM-LoRA-RAG-main/dataset/IN-Ext/judgement/"
-full_summary_dir = "/home/gpuuser6/Alik/Laxita/Legal-Doc-Summarization-LLM-LoRA-RAG-main/dataset/IN-Ext/summary/full/"
-segment_summary_dir = "/home/gpuuser6/Alik/Laxita/Legal-Doc-Summarization-LLM-LoRA-RAG-main/dataset/IN-Ext/summary/segment-wise/"
-output_dir = "/home/gpuuser6/Alik/Laxita/processed-IN-Ext/"
+judgement_dir = "../dataset/IN-Ext/judgement/"
+full_summary_dir = "../dataset/IN-Ext/summary/full/"
+segment_summary_dir = "../dataset/IN-Ext/summary/segment-wise/"
+output_dir = "../processed-IN-Ext/"
 
 os.makedirs(output_dir, exist_ok=True)
 
