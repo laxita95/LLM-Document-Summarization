@@ -9,7 +9,7 @@ from tqdm import tqdm
 # CONFIG
 # -------------------------
 MODEL_PATH = "./llama3_legal_qlora_70"
-TEST_JSONL = "/home/gpuuser6/Alik/Laxita/Updated_Code/dataset/processed-IN-Ext/test_full_A2.jsonl"
+TEST_JSONL = "../dataset/processed-IN-Ext/test_full_A2.jsonl"
 MAX_INPUT_TOKENS = 4096
 MAX_NEW_TOKENS = 500
 MAX_SAMPLES = 100  # set None for full dataset
